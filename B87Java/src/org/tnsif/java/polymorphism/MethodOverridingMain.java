@@ -1,6 +1,8 @@
 package org.tnsif.java.polymorphism;
 
-public class MethodOverridingMain {
+import org.tnsif.java.inheritence.Citizen;
+
+public class MethodOverridingMain extends Citizen {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -9,6 +11,10 @@ public class MethodOverridingMain {
 		
 		RBI ic= new ICICI();
 		System.out.println(ic.getRateofInterest());
+		
+		//Citizen c = new Citizen();
+		 MethodOverridingMain m = new  MethodOverridingMain();
+		
 
 	}
 

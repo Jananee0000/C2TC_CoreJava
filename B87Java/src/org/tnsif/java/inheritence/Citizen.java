@@ -1,14 +1,16 @@
 package org.tnsif.java.inheritence;
 
 public class Citizen {
-	private long aadharNo;
-	private String nationality;
-	private String dob;
-	private String address;
+	
+
+	protected long aadharNo;
+	protected String nationality;
+	protected String dob;
+	protected String address;
 	//parameterized constructor
 	public Citizen(long aadharNo, String nationality, String dob, String address) {
 		super();
-		this.aadharNo = aadharNo;
+		this.aadharNo =  aadharNo;
 		this.nationality = nationality;
 		this.dob = dob;
 		this.address = address;
